@@ -93,9 +93,9 @@ int main(int argc, char **argv)
    /* ******** CUSTOM CHANGES TO EXAMPLE MAIN ********** */
     
     unsigned long int sampleRate;
-    double basebandFreq[2] ;
-    double tip[2];
-    double SNRdB[2];
+    double basebandFreq[20] ;
+    double tip[20];
+    double SNRdB[20];
     
     sampleRate = strtof(argv[1],NULL);
     /* basebandFreq[0] = strtof(argv[2],NULL);

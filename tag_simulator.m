@@ -107,8 +107,8 @@ tic
 yNoisy = complex(zeros(samplesPerBuffer, numTags));
 yClean = complex(zeros(samplesPerBuffer, numTags));
 
-for j = 1:20
-%while 1
+
+while 1
     %Determine when during the current the time block should have 
     %the sine wave turned on
     pulseMask       = zeros(numel(t),numTags);
